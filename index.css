@@ -14,7 +14,7 @@ h1 {
 	border: 2px black lines;
 }
 section {
-	height: 600px;
+	/*height: 600px;*/
 	text-align: center;
 	font-size: 24px;
 	font-family: "Montserrat", sans-serif;
