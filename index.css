@@ -19,3 +19,8 @@ section {
 	font-size: 24px;
 	font-family: "Montserrat", sans-serif;
 }
+img {
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
+}
