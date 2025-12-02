@@ -1,0 +1,59 @@
+/*This is the CSS page for our final template.*/
+
+.footer p { /* This is how you add styles for only the p text within the footer. */
+	background-color: #cccccc;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.header {
+	height: auto;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Georgia', serif;
+	background-color: lightseagreen;
+	color: darkbrown;
+}
+h4 {
+	font-style: italic;
+	font-size: 40px;
+	font-family: 'Georgia', serif;
+}
+h3 {
+	font-size: 30px;
+}
+{animation-delay: revert;}
+p {
+				padding: 3px;
+				font-family: 'Times New Roman'serif;
+				font-size: 20px;
+			}
+			img {
+					float: right;
+					margin-right: 5%;
+					margin-left: 5%;
+			}
+
+/*Don't worry about this section yet*/
+@media only screen and (max-width: 767px)
+{
+ .list {
+ 	float: none;
+ 	min-width: 90%;
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ 	margin-top: 30px;
+ }
+ iframe {
+ 	min-width: 90%;
+ 	margin-right: 10px;
+ }
+ .animated-word {
+ 		animation: fadeIn 3s infinite; /* Applies the animation */
+ }
+ @keyframes fadeIn {
+ 		0% { opacity: 0; } /* Start with opacity 0 */
+ 		100% { opacity: 1; } /* End with opacity 1 (visible) */
+ 	}
+}
