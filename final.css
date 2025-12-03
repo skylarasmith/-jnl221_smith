@@ -1,7 +1,13 @@
 /*This is the CSS page for our final template.*/
 
+p{
+	font-family: 'Times New Roman'serif;
+	font-size: 20px;
+}
+
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #seagreen;
+	color: whitesmoke;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -12,8 +18,8 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: lightseagreen;
-	color: darkbrown;
+	background-color: #1D7874;
+	color: #0a2826;
 }
 h4 {
 	font-style: italic;
