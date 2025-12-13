@@ -5,9 +5,13 @@ p{
 	font-size: 20px;
 }
 
+body 
+{
+background-color: ghostwhite;
+}
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #seagreen;
-	color: whitesmoke;
+	background-color: #1D7874;
+	color: white;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -20,11 +24,14 @@ p{
 	font-family: 'Georgia', serif;
 	background-color: #1D7874;
 	color: #0a2826;
+	border: 5px solid black;
 }
 h4 {
 	font-style: italic;
 	font-size: 40px;
 	font-family: 'Georgia', serif;
+	background-color: white;
+	color: #1D7874;
 }
 h3 {
 	font-size: 30px;
@@ -54,7 +61,7 @@ p {
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
- }
+ 
  .animated-word {
  		animation: fadeIn 3s infinite; /* Applies the animation */
  }
